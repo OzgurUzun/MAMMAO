@@ -114,7 +114,7 @@ void LCDMode() {
 
 void LCD_speed() {
   lcd.setCursor(15, 0);
-  lcd.print(speed);
+  lcd.print(carSpeed);
 }
 
 void LCDDirection() {
